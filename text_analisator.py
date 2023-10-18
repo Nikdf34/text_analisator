@@ -49,12 +49,6 @@ def unique_symbols(a):
         else:
             my_dict[i] += 1
     return my_dict
-# my_words = (string_to_list('моя логика решила,,? погул?ять ИлИ Пок,!УРить или или'))
-# my_wordsen = ('моя логика решила,,? погул?ять ИлИ Пок,!УРить или или')
-# print(unique_symbols(my_wordsen))
-# print(unique_words(my_words))
-# longest_word(my_words)
-# shorts_word(my_words)
 while True:
     a = input('Введите текст, который хотите обработать: ')
     if a == '':
